@@ -19,7 +19,7 @@ UCSF-PDGM-Multimodal-ImageMask-Subset.zip</a> with colorized masks
 <br>Glioblastoma MRI Dataset for Brain Tumor Segmentation
 <br>by Rukiye Aydın.
 <br><br>
-For comparison of segmentation performance between a single modal and this multimodal FlexUNet model, 
+For comparison of segmentation performance between a single-modal and this multimodal FlexUNet model, 
 please see also the following experiments:
 <ul>
 <li>
@@ -213,7 +213,7 @@ model         = "TensorFlowFlexUNet"
 generator     =  False
 image_width    = 256
 image_height   = 256
-;Specify the number of four modalities (FLAIR,T1,T1c,T2)
+; Specify the number of modalities (FLAIR, T1,T1c,T2)
 image_channels = 4
 
 num_classes    = 4
@@ -258,7 +258,7 @@ Enabled early stopping callback with the patience parameter.
 patience      = 10
 </pre>
 <b>Image</b><br>
-Please specify "NPY" for <b>file_format</b> in case of NPY image dataset.
+Please specify "NPY" for <b>file_format</b> in case of an NPY image dataset.
 <pre>
 [image]
 color_order = "RGB"
