@@ -42,7 +42,7 @@ As shown below, the inferred masks resemble the ground-truth masks. <br>
 <br>
 <table>
 <tr>
-<th  width="320" height="auto">Input: T2 slice in NPY</th>
+<th  width="320" height="auto">T2 slice in NPY</th>
 <th  width="320" height="auto">Mask (ground_truth)</th>
 <th  width="320" height="auto">Prediction: inferred_mask</th>
 </tr>
